@@ -1,0 +1,495 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}  
+
+body{
+    background-color:#AF5740;   
+}
+
+h1,h2{
+    margin-bottom: -12px;
+    color: #2B6B7C;
+}
+
+h1{
+  font-size: 20pt;  
+}
+
+h2{
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 12pt;
+    color:#2B6B7C; 
+}
+
+#bakgrunn{
+    width: 100%;
+    margin-top: -100px;
+    background-repeat: no-repeat;
+    position:fixed;
+    z-index: -12;
+    height: auto;
+}
+
+#logo{
+    position: fixed;
+    z-index: 2;
+    margin-top: 20px;
+    margin-left:0;
+    width: 15%;
+    float: left;
+}
+
+.sign{
+    position: relative;
+    z-index: 2;
+    margin-top: 140px;
+    margin-right: 0px;
+    float:right;
+    }
+
+
+.knapp{
+    padding: 10px;
+    font-size: 15pt;
+    font-weight: bold;
+    color:#2B6B7C; 
+    border-radius: 5px;
+    border-style: none;
+}
+
+.Fargeboks{
+    position:relative;
+    z-index: 1;
+    background-color:#4098AF;
+    opacity: 80%;
+    width: 100%;
+    margin-right: 0;
+    height: 170px;
+}
+
+.hovedoverskrift{
+    margin-top: -70px;
+    
+}
+
+#over-over{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 60pt;
+    padding: 10px;
+    margin-left: 25%;
+    color:white;
+    }
+
+#overskrift{
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: -120px;
+    margin-left: 70%;
+    padding: 10px;
+    color: black;
+}
+
+
+
+div ul{
+    float:left;
+    width: 15%;
+    position: fixed;
+    list-style-type: none;
+    overflow: hidden;
+    margin:0;
+    margin-top: 50px;
+    padding: 0;
+}
+
+li{
+    padding:10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 20pt;
+    background-color: white;
+}
+
+ul li a{
+    display: block;
+    color:#2B6B7C;
+    font-weight: bolder;
+    
+    
+}
+
+ul li a:hover{
+    background-color: #4098AF;
+    color: white;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+#forsidebilde{
+    width: 80%;
+    float:right;
+    margin-right: 0;
+    margin-left: 400px;
+    margin-top: 0;
+    margin-bottom: -300px;
+}
+
+.kolonneramme{
+    width: 80%;
+    float: left;
+    margin-left: 330px;   
+}
+
+
+.boks{
+    position: relative;
+    z-index: 1;
+    width: 29%;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.kolonnebilde{
+    border-radius: 5px;
+    position:relative;
+    z-index: -1;
+    width: 100%;
+    height: 500px;
+    margin-bottom: -450px;
+    }
+
+.bokstopp{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bokstekst{
+    padding: 20px;
+    width:80%;
+    margin-left: 33px;
+    height: 400px;
+    overflow-y: hidden;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#tekst{
+    width: 80%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 100px;
+    padding: 60px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+#dette{
+    font-size:40pt;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+#aktiviteter{
+    margin-left: 15%;
+    margin-top: -70px;
+    padding: 60px;
+    width: 80%;
+    background-color: white;
+    float: right;}
+
+#aktiviteter h2{
+     margin-bottom: 0;
+}
+
+.akt{
+    display: inline-block;
+    padding: 5px;
+    width: 25%;
+    color:#2B6B7C;
+    background-color: white;
+}
+.akt h3{
+    margin-left: 43px;
+}
+
+ol li{
+    list-style: none;
+    padding: 2px;
+    font-size: 12pt;
+    margin: 0px;
+    
+}
+
+#picture1{
+    width: 80%;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #8BC6D5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bilder{
+    width: 32%;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+
+
+#tabelloverskrift{
+    width: 80%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0;
+    margin-bottom: -110px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #4098AF;
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+}
+
+.program{
+    width: 80%;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    background-color: white;
+    }
+
+
+
+.program table, td, th{
+    width: 150px;
+    padding: 10px;
+    border: 1px grey solid;
+    border-collapse: collapse;
+    font-weight: normal;
+    text-align: left;
+}
+
+table,th{
+    background-color:#8BC6D5;
+    font-weight: bold;
+}
+
+
+table, tr:nth-child(odd){
+    background-color: #8BC6D5;
+}
+
+
+#skjemaoverskrift{
+    width: 100%;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding:10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.skjema{
+    width: 80%;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    padding: 60px;
+    background-color: white;
+}
+
+.skrivefelt{
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+
+.svarknapp{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight:bold; 
+    background-color: #8BC6D5;
+}
+
+.kommentar{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#praktisk{
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px;
+    border-radius: 5px;
+    float: right;
+    background-color: white;
+}
+
+
+.footer{
+    position:fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #8BC6D5;  
+    z-index: 1;
+}
+
+#forbundet{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    
+}
+#forbundet:hover{
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#fb{
+   font-size: 15pt;
+    width: 3%;
+    float: left;
+    margin-left: 20px;
+    margin-top:-50px;
+}
+
+
+    
+@media screen and (max-width:800px){.Fargeboks, .hovedoverskrift {
+        width:auto;
+        height: auto;
+                }
+    }
+    
+@media screen and (max-width:800px){#dette,#tabelloverskrift{
+    font-size: 20pt;
+    }} 
+
+@media screen and (max-width:800px){#over-over{
+        margin-top: 60px;
+        margin-left: 15%;
+        font-size: 20pt;
+        }
+    }
+@media screen and (max-width:800px){#overskrift{
+        position: static;
+        margin-left: 60%;
+        margin-top: -37px;
+        font-size:10pt;
+        }
+    }
+    
+@media screen and (max-width:800px){.sign{
+        width: 20%;
+        margin-top: 5px;
+        }
+    }
+    
+@media screen and (max-width:800px){.knapp{
+        border-style: none;
+        background-color: white;
+        color: #2B6B7C;
+        font-size: 10pt;
+        font-weight: bold;
+        margin-top: 4%;
+        border-radius: 5px;
+        padding: 10px;
+        }
+    }
+
+@media screen and (max-width:800px){div ul{
+        position: static;
+        width: auto;
+        height: 60px;
+        margin-top: 0;
+        background-color: white;
+        }
+    }
+    
+@media screen and (max-width:800px)  
+    {ul li{
+        display: inline-block;
+        width: 15%;
+        font-size: 10pt;
+        padding: 10px;
+        border-style: none;
+        margin-left: 15px;
+        }
+    }
+
+        
+@media screen and (max-width:800px) 
+    {ul li a:hover{
+        font-size: 10pt;
+        border-style: none;
+        }
+    }
+
+@media screen and (max-width:800px) 
+    {.kolonneramme{
+        width:80%;
+        float:right;
+        margin:0;
+        }
+    }
+@media screen and (max-width:800px)
+    {#forsidebilde{
+        margin-bottom: -20px;
+    } 
+        }
+    
+@media screen and (max-width:800px)
+        {.boks{
+        width: auto;
+        margin left:10%;
+        margin-bottom: 40px;
+        }
+    }
+
+@media screen and (max-width:800px)
+{.bilder{
+    width:95%;
+        }
+    }
+@media screen and (max-width:800px){#tekst,#praktisk,.skjema{
+    padding: 10px;
+    }}
+@media screen and (max-width:800px)
+{div .tabellramme{
+        width: auto;
+        }
+    }
+        
+    @media screen and (max-width:800px){td,th{
+        font-size: 5pt;
+        padding: 0;
+        margin: 0;
+        }
+    }
+
+@media screen and (max-width:800px)
+{.akt{
+    width: 100%;
+    }}
